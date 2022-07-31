@@ -64,18 +64,23 @@ img {
 
 .one, .two, .three, .four, .five, .six, .seven, .eight, .nine, .ten, .eleven, .twelve{
     border: 3px solid red;
-    height: 30%;
-    width: 30%;
-    /*flex: none;*/
+   /* height: 100%;
+    width: 100%;
+    flex: none;*/
  
 }
 
 #root {
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    justify-content: space-around;
    /* display:flex;
-    flex-flow: row wrap;*/
+    flex-flow: row wrap;
     display: grid;
     grid-template-columns: repeat (4, 1fr);
-    /*grid-template-rows: repeat (3, 1fr);*/
+    grid-template-rows: repeat (3, 1fr);
     grid-auto-rows: 30%;
     grid-auto-columns: 30%;
     grid-gap: 0.3%;
@@ -84,5 +89,5 @@ img {
     padding-left: 10%;
     padding-right: 10%;
     padding-top: 3%;
-    border: solid yellow;
+    border: solid black;*/
 }
