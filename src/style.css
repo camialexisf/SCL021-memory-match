@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@600&family=Montserrat:wght@900&display=swap');
+
+:root {
+    --font-one: 'Dosis', sans-serif;
+    --font-two: 'Montserrat', sans-serif;
+    --font-color-one: #FCFCFC;
+    --background: #E7FAFA;
+}
+.contenedor{
+margin: 0;
+}
+body {
+    background-color: var(--background);
+    margin: 0%;
+}
+
+header {
+    background-color: #38B4D8;
+    align-items: initial;
+    padding: 1%;
+}
+
+h1 {
+    font-family: var(--font-two);
+    color: var(--font-color-one);
+    font-size: 250%;
+    margin: 0;
+    padding-left: 15%;
+}
+
+h2 {
+    font-family: var(--font-one);
+    color: var(--background);
+    font-size: 160%;
+    margin: 0;
+
+}
+
+.subtitle {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0;
+    padding-left: 20%;
+
+}
+
+img {
+    width: 15%;
+    margin: 0;
+
+}
+
+.alert-tutorial, h4 {
+    background: #211921;
+    margin: 0;
+    font-family: var(--font-one);
+    color: var(--font-color-one);
+    padding-left: 55%;
+    font-size: 110%;
+    padding-top: 0.3%;
+    padding-bottom: 0.3%;
+}
+
+.one, .two, .three, .four, .five, .six, .seven, .eight, .nine, .ten, .eleven, .twelve{
+    border: 3px solid red;
+    height: 30%;
+    width: 30%;
+    /*flex: none;*/
+ 
+}
+
+#root {
+   /* display:flex;
+    flex-flow: row wrap;*/
+    display: grid;
+    grid-template-columns: repeat (4, 1fr);
+    /*grid-template-rows: repeat (3, 1fr);*/
+    grid-auto-rows: 30%;
+    grid-auto-columns: 30%;
+    grid-gap: 0.3%;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 3%;
+    border: solid yellow;
+}
