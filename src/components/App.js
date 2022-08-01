@@ -1,4 +1,5 @@
-//
+import shuffle from './random.js';
+console.log(shuffle);
 // Para incluir los diferentes sets de cartas podemos _importar_ el archivo
 // JavasSript que contenga el `export` correspondiente...
 //
@@ -7,12 +8,7 @@
 //
 // O alternativamente podríamos cargar el JSON de forma asíncrona usando
 // `fetch` en el momento que consideremos necesario.
-//
-// fetch('./data/pokemon/pokemon.json')
-//   .then(resp => resp.json())
-//   .then(console.log)
-//   .catch(console.error);
-//
+// 
 
 /*const App = () => {
   const el = document.createElement('div');
@@ -23,4 +19,18 @@
   return el;
 };*/
 
+
+
+
+ /*function appendData(shuffle) {
+    
+  var mainContainer = document.getElementById("root");
+  for (var i = 0; i < shuffle.length; i++) {
+    var img = document.createElement("img");
+    img.src = data.items[i].image;
+    mainContainer.appendChild(img);
+  }
+};
+appendData();*/
 export default App;
+
