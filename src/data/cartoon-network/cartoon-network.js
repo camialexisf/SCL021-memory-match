@@ -1,5 +1,5 @@
 export default {
-  name: 'Pokemon',
+  name: 'cartoon-network',
   items: [
     { id: 'adventureTime', image: 'https://i.ibb.co/jwGcCJv/1.jpg', /*bgColor: '#339933'*/ },
     { id: 'powerpuffGirls', image: 'https://i.ibb.co/tL3pMsR/2.png', /*bgColor: '#339933'*/ },
