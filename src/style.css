@@ -6,6 +6,10 @@
     --font-color-one: #FCFCFC;
     --background: #E7FAFA;
 }
+
+*{
+    box-sizing: border-box;
+}
 .contenedor{
 margin: 0;
 }
@@ -62,32 +66,27 @@ img {
     padding-bottom: 0.3%;
 }
 
-.one, .two, .three, .four, .five, .six, .seven, .eight, .nine, .ten, .eleven, .twelve{
-    border: 3px solid red;
-   /* height: 100%;
-    width: 100%;
-    flex: none;*/
- 
-}
-
 #root {
 
-    display: grid;
+    /*display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
-    justify-content: space-around;
-   /* display:flex;
-    flex-flow: row wrap;
+    justify-content: space-around;*/
+    outline: 1px solid limegreen; 
+    justify-items: center;
+    margin-left: 20%;
+}
+
+.cards {
     display: grid;
-    grid-template-columns: repeat (4, 1fr);
-    grid-template-rows: repeat (3, 1fr);
-    grid-auto-rows: 30%;
-    grid-auto-columns: 30%;
-    grid-gap: 0.3%;
-    align-items: center;
-    justify-content: space-between;
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-top: 3%;
-    border: solid black;*/
+    grid-template-columns: repeat(4, 1fr);
+    gap: 7px;
+    justify-content: space-around; 
+    /*justify-items: center;*/
+    width: 80%;
+}
+
+.cards img {
+    width: 100%;
+    justify-content: center;
 }

@@ -15,15 +15,18 @@ console.log(data.items);
  };
  console.log(randomizeData);*/
 
+
  const shuffle = ()=> {
-    const dataItems = data.items
-  let i = dataItems.length;
+    const dataItems = data.items;
+    const dobleData = (dataItems).concat(dataItems);
+    let i = dobleData.length;
   console.log ('Hola Cami');
   while (--i > 0){
     let randIndex = Math.floor(Math.random() * (i + 1));
-    [dataItems[randIndex], dataItems[i]] = [dataItems[i], dataItems[randIndex]];
+    [dobleData[randIndex], dobleData[i]] = [dobleData[i], dobleData[randIndex]];
 } 
-return dataItems;
+return dobleData;
+
  }
 
  export default shuffle();
