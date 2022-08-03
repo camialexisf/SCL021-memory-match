@@ -20,7 +20,7 @@ console.log(data.items);
     const dataItems = data.items;
     const dobleData = (dataItems).concat(dataItems);
     let i = dobleData.length;
-  console.log ('Hola Cami');
+ /* console.log ('Hola Cami');*/
   while (--i > 0){
     let randIndex = Math.floor(Math.random() * (i + 1));
     [dobleData[randIndex], dobleData[i]] = [dobleData[i], dobleData[randIndex]];

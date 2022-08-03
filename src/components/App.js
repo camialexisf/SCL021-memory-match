@@ -38,7 +38,7 @@ const App = () => {
     frontCard.appendChild(frontImg);   
     backCard.appendChild(backImg);
   
-    console.log(backImg);
+    /*console.log(backImg);*/
   }
   
   frontImg.className = 'frontCards';
