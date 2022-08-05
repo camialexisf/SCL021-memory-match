@@ -31,30 +31,57 @@ import shuffle from './random.js';
 
 //Usar solo un elemento que contenga ambos lados de la carta
 const App = () => {
-//Se crea constante que contiene ambos lados
-  const cards = document.createElement("div"); 
+  //Se crea constante que contiene ambos lados
+  const cards = document.createElement("div");
 
-  for (var i = 0; i < shuffle.length; i++) {
-//se establece carta que se muestra por defecto
+  for (let i = 0; i < shuffle.length; i++) {
+    //se establece carta que se muestra por defecto
     var frontImg = document.createElement("img");
     frontImg.src = shuffle[i].image;
-     var backImg = shuffle[i].backSide;
-     console.log(backImg)
+    //variable que contiene link a parte posterior
+    var backImg = shuffle[i].backSide;
+  frontImg.classList.add("frontcards");
+    //console.log(backImg)
 
-  // Creamos funcion SetTimeOut
-setTimeout (function(){
-  frontImg.setAttribute("src", shuffle[i].backSide);
-}, 5000);
+    // Creamos funcion SetTimeOut 
+    /*setTimeout(function () {
   //Se cambia el atributo de carta mostrada por defecto a la parte posterior con setAttribute
- 
-   cards.appendChild(frontImg);   
+  console.log(frontImg);  
+  frontImg.setAttribute("src", backImg);
+    }, 5000);*/
+
+
+    
+    cards.appendChild(frontImg);
     /*backCard.appendChild(backImg);*/
   }
+ 
   cards.className = "cards"
   /*frontImg.className = 'frontCards';*/
   /*backImg.className = 'backCards';*/
   return (cards);
 }
+//funcion q cambia atributo visibilidad
+/*frontImg.setAttribute('id', 'frontSideImage');
+  backImg.setAttribute('id', 'backSideImage');
+
+  cards.appendChild(frontImg);
+  cards.appendChild(backImg);
+  console.log(backImg)
+
+  frontImg.style.visibility = "visible";
+  backImg.style.visibility = "hidden";
+
+  setTimeout(function () {
+    var front = document.getElementById('frontSideImage');
+    var back = document.getElementById('backSideImage');
+    if (back.style.visibility === 'hidden') {
+      back.style.visibility = 'visible';
+    } else {
+      front.style.visibility = 'hidden';
+    }
+  }, 3000); */
+
 
 
 export default App;
