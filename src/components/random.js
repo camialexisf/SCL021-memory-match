@@ -19,6 +19,7 @@ console.log(data.items);
  const shuffle = ()=> {
     const dataItems = data.items;
     const dobleData = (dataItems).concat(dataItems);
+    // const backSide = dobleData[i].backSide
     let i = dobleData.length;
   console.log ('Hola Cami');
   while (--i > 0){
@@ -26,6 +27,7 @@ console.log(data.items);
     [dobleData[randIndex], dobleData[i]] = [dobleData[i], dobleData[randIndex]];
 } 
 return dobleData;
+
 
  }
 
