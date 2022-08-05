@@ -6,9 +6,9 @@ export default {
     { id: 'dextersLab', image: 'https://i.ibb.co/qxB4Mkz/3.png', backSide: 'https://i.ibb.co/KWydGw9/Sin-t-tulo-1.png' },
     { id: 'courage', image: 'https://i.ibb.co/7bRzDDt/4.png', backSide: 'https://i.ibb.co/KWydGw9/Sin-t-tulo-1.png'},
     { id: 'scoobyDoo', image: 'https://i.ibb.co/KzknnwX/5.png', backSide: 'https://i.ibb.co/KWydGw9/Sin-t-tulo-1.png' },
-    { id: 'johnnyBravo', image: 'https://i.ibb.co/XsfqdM8/bravo.png', backSide: 'https://i.ibb.co/KWydGw9/Sin-t-tulo-1.png' }
-   /* { id: 'squirtle', image: 'https://www.serebii.net/pokemongo/pokemon/007.png', bgColor: '#1572B6' },
-    { id: 'wartortle', image: 'https://www.serebii.net/pokemongo/pokemon/008.png', bgColor: '#1572B6' },
-    { id: 'blastoise', image: 'https://www.serebii.net/pokemongo/pokemon/009.png', bgColor: '#1572B6' },*/
+    { id: 'johnnyBravo', image: 'https://i.ibb.co/XsfqdM8/bravo.png', backSide: 'https://i.ibb.co/KWydGw9/Sin-t-tulo-1.png' },
+    /*{ id: 'squirtle', image: 'https://www.serebii.net/pokemongo/pokemon/007.png', backSide: 'https://i.ibb.co/KWydGw9/Sin-t-tulo-1.png'},
+    { id: 'wartortle', image: 'https://www.serebii.net/pokemongo/pokemon/008.png', backSide: 'https://i.ibb.co/KWydGw9/Sin-t-tulo-1.png'},
+    { id: 'blastoise', image: 'https://www.serebii.net/pokemongo/pokemon/009.png', backSide: 'https://i.ibb.co/KWydGw9/Sin-t-tulo-1.png'},*/
   ],
 };
