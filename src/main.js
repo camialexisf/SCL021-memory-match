@@ -2,8 +2,6 @@ import App from './components/App.js';
 import shuffle from './data/cartoon-network/cartoon-network.js';
 
 
-// console.log(shuffle)
-
 document.getElementById('root').appendChild(App());
 
 let arrCards = document.querySelectorAll(".frontcards")
