@@ -1,6 +1,6 @@
 import data from '../data/cartoon-network/cartoon-network.js'
 
- const shuffle = ()=> {
+ const shuffle = () => {
     const dataItems = data.items;
     const dobleData = (dataItems).concat(dataItems);
     let i = dobleData.length;
