@@ -13,9 +13,9 @@ Yo como usuaria espero que si encuentro un par de cartas, estas se queden de fre
 
 
 ## Primer Prototipo
-![boceto] (/img/prototipo-baja.jpeg)
+![boceto](https://i.ibb.co/KwHK0f0/Prototipo-1.png)
 
 ## Prototipo de alta fidelidad de primera Historia de Usuario
-![Primera imagen] (/img/Prototipo_alta.png)
+![Primera imagen](https://i.ibb.co/gMxKmgr/Prototipo-alta.png)
 
-![Segunda imagen] (/img/Prototipo_alta2.png)
+![Segunda imagen](https://i.ibb.co/brkfNv4/Prototipo-alta2.png)
