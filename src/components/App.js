@@ -27,9 +27,10 @@ const App = () => {
     frontImg.src = shuffle[i].image;
     frontImg.classList.add("frontcards");
     frontImg.setAttribute("name", shuffle[i].id)
+    
     frontImg.addEventListener("click", function (e) {
       frontImg.src = shuffle[i].image;
-      console.log("hola")
+      console.log(e.target.name)
     let imagen = frontImg.getAttribute("name");
     console.log(imagen)
       /*document.getElementsByName(frontImg[i]) == shuffle[i].id
