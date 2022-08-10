@@ -28,19 +28,20 @@ const App = () => {
       const front = data.items.find(element => element.id === name);
       e.target.src = front.image;
       pairs.push(e.target)
-      if (pairs.length == 1){
-       return;
+      if (pairs.length == 1) {
+        return;
       }
       setTimeout(function () {
-       if (pairs.length == 2){
-        if(pairs[0].name !== pairs[1].name) {
-           pairs[0].src = data.backSide;
-           pairs[1].src = data.backSide;
-           console.log(pairs)
-        }}
-      pairs = [];
+        if (pairs.length == 2) {
+          if (pairs[0].name !== pairs[1].name) {
+            pairs[0].src = data.backSide;
+            pairs[1].src = data.backSide;
+            console.log(pairs)
+          }
+        }
+        pairs = [];
       }, 500)
-  
+
     })
     //darle un id a cada div segun imagen q contiene
     //cuando ese div coincide con el del target, cambiar  src de backside a image
@@ -66,7 +67,7 @@ window.addEventListener("load", function () {
       arrCards[i].setAttribute("src", backImg);
       //console.log(arrCards[i].name)
     }
-  }, 1000)
+  }, 700)
 });
 
 
