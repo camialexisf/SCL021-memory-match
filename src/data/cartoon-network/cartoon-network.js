@@ -8,8 +8,5 @@ export default {
     { id: 'courage', image: 'https://i.ibb.co/7bRzDDt/4.png'},
     { id: 'scoobyDoo', image: 'https://i.ibb.co/KzknnwX/5.png'},
     { id: 'johnnyBravo', image: 'https://i.ibb.co/XsfqdM8/bravo.png'},
-    /*{ id: 'squirtle', image: 'https://www.serebii.net/pokemongo/pokemon/007.png'},
-    { id: 'wartortle', image: 'https://www.serebii.net/pokemongo/pokemon/008.png'},
-    { id: 'blastoise', image: 'https://www.serebii.net/pokemongo/pokemon/009.png'},*/
   ],
 };

@@ -11,36 +11,28 @@
     box-sizing: border-box;
     margin: 0;
 }
-.contenedorHeader {
-    width: 50%;
-}
 
 body {
     background-color: var(--background);
-    margin: 0%;
+    margin: 0;
 }
-
 
 header {
     background-color: #38B4D8;
     align-items: initial;
-    /*padding: 1%;*/
     width: 100%;
 }
 
 h1 {
     font-family: var(--font-two);
     color: var(--font-color-one);
-    font-size: 3vw;
     margin: 0;
-    padding-left: 27%;
     max-width: 100%;
 }
 
 h2 {
     font-family: var(--font-one);
     color: var(--background);
-    font-size: 1.5vw;
     margin: 0;
     max-width: 100%;
 
@@ -52,55 +44,25 @@ h2 {
     justify-content: center;
     margin: 0;
     padding-left: 20%;
-
-
 }
+
 .menuBar{
     display: flex;
     flex-direction: row;
 }
 
-.cnLogo {
-    max-width: 10vw;
-    height: auto;
-    margin-left: 0.3vw;
-
-}
-
-.logo {
-    width: 15%;
-}
-
-.menuBar, h4 {
+.menuBar, h4, #tutorial {
     background: #211921;
-    margin: 0;
     font-family: var(--font-one);
     color: var(--font-color-one);
-    padding-left: 55%;
-    font-size: 1.5vw;
+    padding-left: 0%;
     padding-top: 0.3%;
     padding-bottom: 0.3%;
-}
-
-/* #root {
-    justify-items: center;
-    padding-left: 30vw;
-    margin-top: 2vw;
-} */
-
-.cardsImg {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 1vw;
-    justify-content: space-around; 
-    /*justify-items: center;*/
-    width: 40vw;
 }
 
 .cards img {
     width: 100%;
     justify-content: center;
-    border: 0.4vw solid #211921;
     filter: drop-shadow(3px 4px 4px rgba(0, 0, 0, 0.25));
     border-radius: 10px;
     
@@ -122,11 +84,7 @@ h2 {
         }
 
         .cards img {
-            width: 100%;
-            justify-content: center;
             border: 1vw solid #211921;
-            filter: drop-shadow(3px 4px 4px rgba(0, 0, 0, 0.25));
-            border-radius: 10px;
         }
 
         .contenedorHeader {
@@ -154,19 +112,15 @@ h2 {
             max-width: 18vw;
             height: auto;
             margin-left: 0.3vw;
+            padding-top: 1vw;
         
         }
         header {
             height: 25vw;
 
         }
-        .menuBar, h4 {
-            margin: 0;
-           padding-left: 0;
+        .menuBar, h4, #tutorial {
             font-size: 3.5vw;
-            padding-top: 0.3%;
-            padding-bottom: 0.3%;
-            gap: 3px;
         }
         .menuBar{
             padding-left: 17%;  
@@ -179,6 +133,25 @@ h2 {
         .playAgain {
             margin-left: 5vw;
         }
+        .textBox {
+            visibility: hidden;
+            position: absolute;
+        }
+        .tutorial .textBox::after {
+            content: "";
+            position: absolute;
+            top: 100%;
+            left: 50%;
+            margin-left: -5px;
+            border-width: 5px;
+            border-style: solid;
+            border-color: #211921 transparent transparent transparent;
+          }
+          
+          
+    .tutorial:hover .textBox {
+            visibility: hidden;
+          }
 }
 @media only screen and (min-width: 600px) {
     .cardsImg {
@@ -197,11 +170,7 @@ h2 {
         }
 
         .cards img {
-            width: 100%;
-            justify-content: center;
             border: 1vw solid #211921;
-            filter: drop-shadow(3px 4px 4px rgba(0, 0, 0, 0.25));
-            border-radius: 10px;
         }
 
         .contenedorHeader {
@@ -229,19 +198,15 @@ h2 {
             max-width: 18vw;
             height: auto;
             margin-left: 0.3vw;
+            padding-top: 1vw;
         
         }
         header {
             height: 25vw;
 
         }
-        .menuBar, h4 {
-            margin: 0;
-           padding-left: 0;
+        .menuBar, h4, #tutorial {
             font-size: 3.5vw;
-            padding-top: 0.3%;
-            padding-bottom: 0.3%;
-            gap: 3px;
         }
         .menuBar{
             padding-left: 17%;  
@@ -254,6 +219,28 @@ h2 {
         .playAgain {
             margin-left: 5vw;
         }
+
+        .textBox {
+            visibility: hidden;
+            position: absolute;
+        }
+        
+        .tutorial .textBox::after {
+            content: "";
+            position: absolute;
+            top: 100%;
+            left: 50%;
+            margin-left: -5px;
+            border-width: 5px;
+            border-style: solid;
+            border-color: #211921 transparent transparent transparent;
+          }
+          
+          
+        .tutorial:hover .textBox {
+            visibility: hidden;
+          }
+        
 }
 @media only screen and (min-width: 992px) {
     .cardsImg {     
@@ -272,11 +259,7 @@ h2 {
         }
 
     .cards img {
-        width: 100%;
-        justify-content: center;
         border: 0.4vw solid #211921;
-        filter: drop-shadow(3px 4px 4px rgba(0, 0, 0, 0.25));
-        border-radius: 10px;    
         }
 
     .contenedorHeader {
@@ -288,13 +271,11 @@ h2 {
 
     h1 {
         font-size: 3vw;
-        margin: 0;
         padding-left: 23%;
         }
 
     h2 {
         font-size: 2vw;
-        margin: 0;
         }
     .subtitle{
         margin-right: 25vw;
@@ -309,6 +290,7 @@ h2 {
         max-width: 10vw;
         height: auto;
         margin-left: 0.3vw;
+        padding-top: 0;
     
     }
     header {
@@ -316,16 +298,12 @@ h2 {
         height: 10vw;
 
     }
-    .menuBar, h4 {
+    .menuBar, h4, #tutorial {
         margin: 0;
-        padding-left: 0;
         font-size: 1.2vw;
-        padding-top: 0.3%;
-        padding-bottom: 0.3%;
-        gap: 3px;
     }
     .menuBar{
-        padding-left: 55%;  
+        padding-left: 70%;  
         }
 
     .tutorial {
@@ -333,6 +311,34 @@ h2 {
         }
 
     .playAgain {
-        margin-left: 5vw;
+        margin-left: 1vw;
+        padding-right: 2vw;
         }
+    .textBox {
+            visibility: hidden;
+            width: 23vw;
+            position: absolute;
+            background-color: #211921;
+            color: var(--font-color-one);
+            text-align: center;
+            border-radius: 6px;
+            padding: 5px 0;
+            top: 5vw;
+            right: 3vw;
+        }
+        .tutorial .textBox::after {
+            content: "";
+            position: absolute;
+            top: 100%;
+            left: 50%;
+            margin-left: -5px;
+            border-width: 5px;
+            border-style: solid;
+            border-color: #211921 transparent transparent transparent;
+          }
+          
+          
+    .tutorial:hover .textBox {
+            visibility: visible;
+          }
 }
