@@ -87,7 +87,7 @@ window.addEventListener("load", function () {
       arrCards[i].setAttribute("src", backImg);
       //console.log(arrCards[i].name)
     }
-  }, 1000)
+  }, 700)
 });
 
 //Funcion que se ejecuta al clickear Volver a Jugar, refresca la pagina.
