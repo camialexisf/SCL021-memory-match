@@ -87,7 +87,9 @@ window.addEventListener("load", function () {
       arrCards[i].setAttribute("src", backImg);
       //console.log(arrCards[i].name)
     }
+
   }, 1500)
+
 });
 
 
