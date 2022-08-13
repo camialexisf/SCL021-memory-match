@@ -19,3 +19,12 @@ Yo como usuaria espero que si encuentro un par de cartas, estas se queden de fre
 ![Primera imagen](https://i.ibb.co/gMxKmgr/Prototipo-alta.png)
 
 ![Segunda imagen](https://i.ibb.co/brkfNv4/Prototipo-alta2.png)
+
+## Listado de problemas detectados a través de test de usabilidad
+- La plataforma no se adapta a las diferentes pantallas (resuelto)
+- Las cartas se veian muy pequeñas en dispositivos mobiles (resuelto)
+- Al comienzo las tarjetas no se muestran el tiempo suficiente (resuelto)
+- Los pares de tarjetas no se muestran el tiempo suficiente
+- Se podria mejorar la apariencia de los Alert utilzando SweetAlert
+- Voltear el orden de los botones para darle mas comodidad al usuario de celular
+- Incorporar advertencia de que el juego va a comenzar (3,2,1 A JUGAR!)
