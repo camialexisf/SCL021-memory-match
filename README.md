@@ -25,6 +25,6 @@ Yo como usuaria espero que si encuentro un par de cartas, estas se queden de fre
 - Las cartas se veian muy pequeñas en dispositivos mobiles (resuelto)
 - Al comienzo las tarjetas no se muestran el tiempo suficiente (resuelto)
 - Los pares de tarjetas no se muestran el tiempo suficiente
-- Se podria mejorar la apariencia de los Alert utilzando SweetAlert
+- Se podria mejorar la apariencia de los Alert utilzando SweetAlert (resuelto)
 - Voltear el orden de los botones para darle mas comodidad al usuario de celular
 - Incorporar advertencia de que el juego va a comenzar (3,2,1 A JUGAR!)
