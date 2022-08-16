@@ -63,7 +63,12 @@ const App = () => {
             //Comprobar que el total de las cartas tenga la nueva clase
             if (arrFlipped.length == shuffle.length) {
               //lanzar alert felicitando
-              alert("¡Felicitaciones, has ganado la partida!")
+              //alert("¡Felicitaciones, has ganado la partida!")
+              swal({
+                icon: 'success',
+                title: 'Felicitaciones!',
+                text: 'has ganado la partida',               
+              })
             }
           }
         }
@@ -110,7 +115,12 @@ document.addEventListener('DOMContentLoaded', function () {
     //Se le asigna un escuchador
     tutorial.addEventListener("click", () => {
       //Se muestra alert con las instrucciones
-      alert("Encuentra los pares! Debes hacer clic en cada carta para voltearla")
+      //alert("Encuentra los pares! Debes hacer clic en cada carta para voltearla")
+      swal({
+        icon: 'info',
+        title: 'Encuentra los pares!',
+        text: 'Debes hacer clic en cada carta para voltearla',
+      })
     })
   }
 });

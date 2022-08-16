@@ -69,6 +69,13 @@ h2 {
     
 }
 
+.swal-title{
+ font-family: var(--font-two);
+}
+.swal-text{
+    font-family: var(--font-one);
+}
+
 @media only screen and (max-width: 600px) {
     .cardsImg {
         display: grid;
